@@ -12,7 +12,7 @@ app.get(`/api/photos/:count`, photosFlows.fetchPhotos);
 // Step 2
 app.post('/api/orders', ordersFlows.saveOrder);
 
-// Step 3
+// Step 3 - not implemented :(
 app.get('/api/orders/:id', ordersFlows.getUserOrders);
 
 const PORT = 3000;
